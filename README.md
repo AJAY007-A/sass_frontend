@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 SaaSKit - Frontend
 
-## Getting Started
+The modern, highly-interactive frontend for SaaSKit, built with **Next.js 15**, **Tailwind CSS 4**, and **Framer Motion**.
 
-First, run the development server:
+## ✨ UI/UX Highlights
 
+- **🌑 Glassmorphism Design**: Sleek, transparent UI elements with backdrop blurs.
+- **✨ Smooth Animations**: Page transitions and component reveals powered by Framer Motion.
+- **📱 Fully Responsive**: Optimized for every device from mobile to desktop.
+- **🌓 Dark Mode Primary**: A premium dark-first aesthetic with custom color tokens.
+- **🧩 Shadcn-like Components**: Reusable UI primitives (Buttons, Cards, Inputs, Badges).
+
+## 🛠️ Frontend Tech Stack
+
+- **Framework**: [Next.js 15 (App Router)](https://nextjs.org/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **API Client**: Axios with interceptors for JWT handling.
+
+## 🚀 Getting Started
+
+### 1. Install Dependencies
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Configure Environment Variables
+Create a `.env.local` file in this directory:
+```env
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 3. Run Development Server
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) to see the app.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Folder Structure
 
-## Learn More
+- `src/app`: Next.js pages and layouts (Auth, Dashboard, Admin).
+- `src/components`: Reusable UI components and specialized features (Navbar, Sidebar).
+- `src/context`: AuthContext for global state management.
+- `src/lib`: Unified API configurations and utilities.
+- `src/services`: Frontend services for API calls (Auth, Billing).
 
-To learn more about Next.js, take a look at the following resources:
+## 🔗 Author & Connections
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Built with ❤️ by **Ajay R**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **LinkedIn**: [ajay-r-54a41b328](https://www.linkedin.com/in/ajay-r-54a41b328/)
+- **GitHub**: [AJAY007-A](https://github.com/AJAY007-A)
+- **Instagram**: [http.ajazzz](https://www.instagram.com/http.ajazzz/)
