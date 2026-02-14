@@ -61,7 +61,7 @@ export default function PricingPage() {
             const options = {
                 key: razorpayKeyId,
                 subscription_id: subscriptionId,
-                name: "SaaSKit",
+                name: "sasskit",
                 description: `${planKey} Subscription`,
                 handler: () => {
                     window.location.href = "/dashboard";

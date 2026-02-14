@@ -1,6 +1,6 @@
-# 🚀 SaaSKit - Frontend
+# 🚀 sasskit - Frontend
 
-The modern, highly-interactive frontend for SaaSKit, built with **Next.js 15**, **Tailwind CSS 4**, and **Framer Motion**.
+The modern, highly-interactive frontend for sasskit, built with **Next.js 15**, **Tailwind CSS 4**, and **Framer Motion**.
 
 ## ✨ UI/UX Highlights
 

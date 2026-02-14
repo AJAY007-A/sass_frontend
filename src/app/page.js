@@ -22,7 +22,7 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-          
+
             <h1 className="text-5xl font-extrabold tracking-tight sm:text-7xl bg-gradient-to-b from-white via-white to-white/40 bg-clip-text text-transparent pb-2">
               Ship your SaaS <br /> in hours, not weeks
             </h1>
@@ -106,7 +106,7 @@ export default function HomePage() {
             <Link href="https://github.com/AJAY007-A" className="hover:text-primary transition-colors">GitHub</Link>
             <Link href="https://www.instagram.com/http.ajazzz/" className="hover:text-primary transition-colors">Instagram</Link>
           </div>
-          <p>&copy; 2026 SaaSKit. Built with love for developers.</p>
+          <p>&copy; 2026 sasskit. Built with love for developers.</p>
         </div>
       </footer>
     </div>
